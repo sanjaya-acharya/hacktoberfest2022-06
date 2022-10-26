@@ -5,6 +5,7 @@
 
 int main() {
     printf("Hello World!);
+    return 0;
 }
 // Contributed by ANG-98
 ```
@@ -28,4 +29,11 @@ int no_of_digits(int n) {
     return count;
 }
 // Contributed by SAN-98
+```
+
+``` c
+int sum(int n1, int n2) {
+    return n1+n2;
+}
+// Contributed by PRA-99
 ```
