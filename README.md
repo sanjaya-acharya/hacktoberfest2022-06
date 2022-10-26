@@ -1,6 +1,6 @@
 # hacktoberfest2022-06
 
-``` C
+``` c
 #include <stdio.h>
 
 int main() {
@@ -9,7 +9,7 @@ int main() {
 // Contributed by ANG-98
 ```
 
-``` C
+``` c
 void pritnTable(int n) {
     int i;
     for (i = 1; i <= 10; i++) {
@@ -19,3 +19,13 @@ void pritnTable(int n) {
 // Contributed by ASM
 ```
 
+``` c
+int no_of_digits(int n) {
+    int count = 0;
+    do {
+        count++;
+    } while (n /= 10);
+    return count;
+}
+// Contributed by SAN-98
+```
