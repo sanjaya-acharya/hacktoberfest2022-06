@@ -3,15 +3,15 @@
 ``` c
 #include <stdio.h>
 
-int main() {
-    printf("Hello World!);
+int main () {
+    printf ("Hello World!);
     return 0;
 }
 // Contributed by ANG-98
 ```
 
 ``` c
-void pritnTable(int n) {
+void pritnTable (int n) {
     int i;
     for (i = 1; i <= 10; i++) {
         printf("%5d * %5d = %5d\n", n, i, n*i);
@@ -21,7 +21,7 @@ void pritnTable(int n) {
 ```
 
 ``` c
-int no_of_digits(int n) {
+int no_of_digits (int n) {
     int count = 0;
     do {
         count++;
@@ -32,8 +32,15 @@ int no_of_digits(int n) {
 ```
 
 ``` c
-int sum(int n1, int n2) {
+int sum (int n1, int n2) {
     return n1+n2;
 }
 // Contributed by PRA-99
+```
+
+``` c
+int product (int a, int b) {
+    return a*b;
+}
+// Contributed by SAN-662
 ```
